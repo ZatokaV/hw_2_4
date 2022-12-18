@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "hw-2-4"
+version = "0.1.0"
+description = ""
+authors = ["ZatokaV <zatokav@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_2_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
